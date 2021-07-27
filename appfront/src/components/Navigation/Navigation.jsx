@@ -20,7 +20,9 @@ const Navigation = () => {
                 <img className={styles.logo} src={logo} alt="logo" />
                 <ul className={styles.navigationList}>
                     {navItems.map((item) => (
-                        <li className = {styles.navigationItem} key={item}>{item}</li>
+                        <li className = {styles.navigationItem} key={item}>
+                            <a href='/'>{item}</a>
+                        </li>
                     ))}
                 </ul>
             </div>
