@@ -1,6 +1,6 @@
 .Navigation {
 
-    background-color: black;
+    margin-left: 20px;
     color: #e5e5e5;
     display: flex;
     height: 68px;
@@ -12,8 +12,9 @@
 }
 
 .logo {
-max-width: 92px;
-height: fit-content;
+    margin-right: 30px;
+    max-width: 92px;
+    height: fit-content;
 }
 
 .navigationList {
