@@ -1,3 +1,3 @@
-import Navigation from './Navigation';
+import Billboard from './Billboard';
 
-export default Navigation;
+export default Billboard;

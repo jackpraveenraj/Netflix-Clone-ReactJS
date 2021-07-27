@@ -5,7 +5,7 @@ import styles from "./Billboard.module.css"
 const Billboard = () => {
     return (
         <div className={styles.Billboard}>
-            Navigation
+            Billboard
         </div>
     );
 
